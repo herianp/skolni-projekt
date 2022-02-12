@@ -1,2 +1,2 @@
-# skolni-projekt
-This is storage for school project. CZU
+# skolni-projekt CZU
+This is storage for school project.
