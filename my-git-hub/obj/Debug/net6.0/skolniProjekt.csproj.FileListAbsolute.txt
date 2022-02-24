@@ -1,0 +1,15 @@
+C:\Users\petah\Documents\Škola\czu\semestr-2\programování\skolniProjekt\bin\Debug\net6.0\skolniProjekt.exe
+C:\Users\petah\Documents\Škola\czu\semestr-2\programování\skolniProjekt\bin\Debug\net6.0\skolniProjekt.deps.json
+C:\Users\petah\Documents\Škola\czu\semestr-2\programování\skolniProjekt\bin\Debug\net6.0\skolniProjekt.runtimeconfig.json
+C:\Users\petah\Documents\Škola\czu\semestr-2\programování\skolniProjekt\bin\Debug\net6.0\skolniProjekt.dll
+C:\Users\petah\Documents\Škola\czu\semestr-2\programování\skolniProjekt\bin\Debug\net6.0\ref\skolniProjekt.dll
+C:\Users\petah\Documents\Škola\czu\semestr-2\programování\skolniProjekt\bin\Debug\net6.0\skolniProjekt.pdb
+C:\Users\petah\Documents\Škola\czu\semestr-2\programování\skolniProjekt\obj\Debug\net6.0\skolniProjekt.csproj.AssemblyReference.cache
+C:\Users\petah\Documents\Škola\czu\semestr-2\programování\skolniProjekt\obj\Debug\net6.0\skolniProjekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petah\Documents\Škola\czu\semestr-2\programování\skolniProjekt\obj\Debug\net6.0\skolniProjekt.AssemblyInfoInputs.cache
+C:\Users\petah\Documents\Škola\czu\semestr-2\programování\skolniProjekt\obj\Debug\net6.0\skolniProjekt.AssemblyInfo.cs
+C:\Users\petah\Documents\Škola\czu\semestr-2\programování\skolniProjekt\obj\Debug\net6.0\skolniProjekt.csproj.CoreCompileInputs.cache
+C:\Users\petah\Documents\Škola\czu\semestr-2\programování\skolniProjekt\obj\Debug\net6.0\skolniProjekt.dll
+C:\Users\petah\Documents\Škola\czu\semestr-2\programování\skolniProjekt\obj\Debug\net6.0\ref\skolniProjekt.dll
+C:\Users\petah\Documents\Škola\czu\semestr-2\programování\skolniProjekt\obj\Debug\net6.0\skolniProjekt.pdb
+C:\Users\petah\Documents\Škola\czu\semestr-2\programování\skolniProjekt\obj\Debug\net6.0\skolniProjekt.genruntimeconfig.cache
