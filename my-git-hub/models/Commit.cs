@@ -1,4 +1,4 @@
-class Commit {
+public class Commit {
     private string _message;
     private DateTime _dateTime;
 

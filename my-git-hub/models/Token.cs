@@ -1,4 +1,4 @@
-class Token
+public class Token
 {
     private string _token;
 
@@ -7,6 +7,11 @@ class Token
         get { return _token; }
         set { this._token = value; }
     }
+
+    public Token()
+    {
+    }
+
     public Token(string token)
     {
         this.token = token;

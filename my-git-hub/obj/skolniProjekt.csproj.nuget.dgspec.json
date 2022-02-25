@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\petah\\Documents\\Škola\\czu\\semestr-2\\programování\\skolniProjekt\\skolniProjekt.csproj": {}
+    "C:\\Users\\herianp\\Desktop\\czu\\skolni-projekt\\my-git-hub\\skolniProjekt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\petah\\Documents\\Škola\\czu\\semestr-2\\programování\\skolniProjekt\\skolniProjekt.csproj": {
+    "C:\\Users\\herianp\\Desktop\\czu\\skolni-projekt\\my-git-hub\\skolniProjekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\petah\\Documents\\Škola\\czu\\semestr-2\\programování\\skolniProjekt\\skolniProjekt.csproj",
+        "projectUniqueName": "C:\\Users\\herianp\\Desktop\\czu\\skolni-projekt\\my-git-hub\\skolniProjekt.csproj",
         "projectName": "skolniProjekt",
-        "projectPath": "C:\\Users\\petah\\Documents\\Škola\\czu\\semestr-2\\programování\\skolniProjekt\\skolniProjekt.csproj",
-        "packagesPath": "C:\\Users\\petah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\petah\\Documents\\Škola\\czu\\semestr-2\\programování\\skolniProjekt\\obj\\",
+        "projectPath": "C:\\Users\\herianp\\Desktop\\czu\\skolni-projekt\\my-git-hub\\skolniProjekt.csproj",
+        "packagesPath": "C:\\Users\\herianp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\herianp\\Desktop\\czu\\skolni-projekt\\my-git-hub\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\petah\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\herianp\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

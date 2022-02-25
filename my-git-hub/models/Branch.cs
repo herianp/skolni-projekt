@@ -1,6 +1,6 @@
 using System.Collections;
 
-class Branch
+public class Branch
 {
     private string _name;
     private string _owner;

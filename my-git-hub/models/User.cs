@@ -1,11 +1,16 @@
 
 using System.Collections;
 
-class User
+public class User
 {
     private string _name;
     private Token _token;
     private ArrayList _listOfBranch;
+
+    public User()
+        {
+            listOfBranch = new ArrayList();
+        }
 
     public User(string name)
     {

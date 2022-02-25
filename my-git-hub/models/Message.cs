@@ -1,4 +1,4 @@
-class Message {
+public class Message {
     private string _text;
 
     public string text
