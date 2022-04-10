@@ -1,0 +1,15 @@
+C:\Users\herianp\Desktop\czu\skolni-projekt\write-read-file\bin\Debug\net6.0\write-read-file.exe
+C:\Users\herianp\Desktop\czu\skolni-projekt\write-read-file\bin\Debug\net6.0\write-read-file.deps.json
+C:\Users\herianp\Desktop\czu\skolni-projekt\write-read-file\bin\Debug\net6.0\write-read-file.runtimeconfig.json
+C:\Users\herianp\Desktop\czu\skolni-projekt\write-read-file\bin\Debug\net6.0\write-read-file.dll
+C:\Users\herianp\Desktop\czu\skolni-projekt\write-read-file\bin\Debug\net6.0\write-read-file.pdb
+C:\Users\herianp\Desktop\czu\skolni-projekt\write-read-file\obj\Debug\net6.0\write-read-file.csproj.AssemblyReference.cache
+C:\Users\herianp\Desktop\czu\skolni-projekt\write-read-file\obj\Debug\net6.0\write-read-file.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herianp\Desktop\czu\skolni-projekt\write-read-file\obj\Debug\net6.0\write-read-file.AssemblyInfoInputs.cache
+C:\Users\herianp\Desktop\czu\skolni-projekt\write-read-file\obj\Debug\net6.0\write-read-file.AssemblyInfo.cs
+C:\Users\herianp\Desktop\czu\skolni-projekt\write-read-file\obj\Debug\net6.0\write-read-file.csproj.CoreCompileInputs.cache
+C:\Users\herianp\Desktop\czu\skolni-projekt\write-read-file\obj\Debug\net6.0\write-read-file.dll
+C:\Users\herianp\Desktop\czu\skolni-projekt\write-read-file\obj\Debug\net6.0\refint\write-read-file.dll
+C:\Users\herianp\Desktop\czu\skolni-projekt\write-read-file\obj\Debug\net6.0\write-read-file.pdb
+C:\Users\herianp\Desktop\czu\skolni-projekt\write-read-file\obj\Debug\net6.0\write-read-file.genruntimeconfig.cache
+C:\Users\herianp\Desktop\czu\skolni-projekt\write-read-file\obj\Debug\net6.0\ref\write-read-file.dll

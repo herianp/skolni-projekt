@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<users>
+  <user username="Petr" />
+  <branches>
+    <branch branchName="Volvo" />
+    <branch branchName="BMW" />
+    <branch branchName="Ford" />
+    <branch branchName="Mazda" />
+  </branches>
+  <user username="Ondra" />
+  <branches>
+    <branch branchName="Volvo" />
+    <branch branchName="BMW" />
+    <branch branchName="Ford" />
+    <branch branchName="Mazda" />
+  </branches>
+  <user username="Marek" />
+  <branches>
+    <branch branchName="Volvo" />
+    <branch branchName="BMW" />
+    <branch branchName="Ford" />
+    <branch branchName="Mazda" />
+  </branches>
+  <user username="Tomas" />
+  <branches>
+    <branch branchName="Volvo" />
+    <branch branchName="BMW" />
+    <branch branchName="Ford" />
+    <branch branchName="Mazda" />
+  </branches>
+</users>
