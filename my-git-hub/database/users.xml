@@ -23,6 +23,9 @@
           <message bodyMessage="nova zprava" />
         </messages>
       </branch>
+      <branch branchName="nova2">
+        <messages />
+      </branch>
     </branches>
   </user>
   <user username="Ondra">

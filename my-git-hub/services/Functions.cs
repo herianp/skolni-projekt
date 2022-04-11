@@ -497,9 +497,7 @@ class Functions
     }
 
     public static void saveDataToFile(ArrayList user_list)
-    { //branches, users, message
-        Console.WriteLine("Writing, to file!");
-
+    { 
         XmlWriterSettings set = new XmlWriterSettings();
         set.Indent = true; //nastaveni odrazeni
 

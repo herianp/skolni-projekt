@@ -27,12 +27,5 @@ class Program
             currentBranch = Functions.signpost(input, user, currentBranch, fetched_users);
             Console.Clear();
         }
-        //SAVE DATA
-        System.Console.WriteLine("OOVVER");
-        fetched_users.Remove(user);
-        System.Console.WriteLine(fetched_users.Count);
-        fetched_users.Add(user);
-        System.Console.WriteLine(fetched_users.Count);
-        Functions.saveDataToFile(fetched_users);
     }
 }
