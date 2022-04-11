@@ -446,13 +446,12 @@ class Functions
                             {
                                 user.addBranch(reader.GetAttribute("branchName"));
                                 currentBranch = (Branch)user.listOfBranch[count_of_branches];
-                                ArrayList message_list = new ArrayList();
                                 XmlReader branch_reader = reader.ReadSubtree();
                                 while (branch_reader.Read())
                                 {
                                     if (reader.GetAttribute("bodyMessage") != null)
                                     {
-                                        currentBranch.messages.Add(new Message(reader.GetAttribute("bodyMessage")));
+                                        currentBranch.branchData.Add(new Message(reader.GetAttribute("bodyMessage")));
                                     }
                                 }
                                 count_of_branches += 1;
@@ -464,6 +463,36 @@ class Functions
             }
         }
         return user_list;
+    }
+
+    public static User assignUser(string inputName, ArrayList user_list)
+    {
+        User user = null;
+        foreach (User fetched_user in user_list)
+        {
+            System.Console.WriteLine(fetched_user.name + "==" + inputName);
+            if (fetched_user.name == inputName)
+            {
+                user = fetched_user;
+                System.Console.WriteLine(user.name);
+                foreach (Branch branch in user.listOfBranch)
+                {
+                    System.Console.WriteLine(branch.name);
+                    foreach (Message msg in branch.messages)
+                    {
+                        System.Console.WriteLine(msg.text);
+                    }
+                }
+                return user;
+            }
+            else
+            {
+                user = new User(inputName);
+                //CREATE MASTER BRANCH FOR NEW USER
+                user.addBranch("master");
+            }
+        }
+        return user;
     }
 
     // public static void saveDataToFile()
