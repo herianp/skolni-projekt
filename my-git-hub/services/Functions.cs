@@ -11,12 +11,13 @@ class Functions
         return user.addBranch(branchName);
     }
     //MAIN FUNCTIONALITY OF APPLICATION
-    public static Branch signpost(string input, User user, Branch cuurBranch)
+    public static Branch signpost(string input, User user, Branch cuurBranch, ArrayList user_list)
     {
         currentBranch = cuurBranch;
         //EXIT APP
         if (Equals(input, "git exit") || Equals(input, "ge"))
         {
+            Functions.saveDataToFile(user_list);
             Environment.Exit(0);
         }
         //CHANGE BRANCHE
@@ -495,47 +496,43 @@ class Functions
         return user;
     }
 
-    // public static void saveDataToFile()
-    // { //branches, users, message
-    //     Console.WriteLine("Writing, to file!");
+    public static void saveDataToFile(ArrayList user_list)
+    { //branches, users, message
+        Console.WriteLine("Writing, to file!");
 
-    //     XmlWriterSettings set = new XmlWriterSettings();
-    //     set.Indent = true; //nastaveni odrazeni
+        XmlWriterSettings set = new XmlWriterSettings();
+        set.Indent = true; //nastaveni odrazeni
 
-    //     using (XmlWriter xw = XmlWriter.Create(@"users.xml", set))
-    //     {
-    //         //Zalozeni dokumentu??
-    //         xw.WriteStartDocument();
-    //         xw.WriteStartElement("users");
-    //         for (int i = 0; i < users.Length; i++)
-    //         {
+        using (XmlWriter xw = XmlWriter.Create(@"database/users.xml", set))
+        {
+            xw.WriteStartDocument();
+            xw.WriteStartElement("users");
+            foreach (User user in user_list)
+            {
+                xw.WriteStartElement("user");
+                xw.WriteAttributeString("username", user.name);
 
-    //             //pridani hodnot do dokumentu
-    //             xw.WriteStartElement("user");
-    //             xw.WriteAttributeString("username", users[i]);
-
-    //             xw.WriteStartElement("branches");
-    //             for (int j = 0; j < branches.Length; j++)
-    //             {
-    //                 xw.WriteStartElement("branch");
-    //                 xw.WriteAttributeString("branchName", branches[j]);
-    //                 xw.WriteStartElement("messages");
-    //                 for (int k = 0; k < messages.Length; k++)
-    //                 {
-    //                     xw.WriteStartElement("message");
-    //                     xw.WriteAttributeString("bodyMessage", messages[k]);
-    //                     xw.WriteEndElement();
-    //                 }
-    //                 xw.WriteEndElement();
-    //                 xw.WriteEndElement();
-    //             }
-    //             xw.WriteEndElement();
-    //             xw.WriteEndElement();
-
-    //         }
-    //         xw.WriteEndElement();
-    //         xw.WriteEndDocument();
-    //         xw.Flush();
-    //     }
-    // }
+                xw.WriteStartElement("branches");
+                foreach (Branch branch in user.listOfBranch)
+                {
+                    xw.WriteStartElement("branch");
+                    xw.WriteAttributeString("branchName", branch.name);
+                    xw.WriteStartElement("messages");
+                    foreach (Message msg in branch.branchData)
+                    {
+                        xw.WriteStartElement("message");
+                        xw.WriteAttributeString("bodyMessage", msg.text);
+                        xw.WriteEndElement();
+                    }
+                    xw.WriteEndElement();
+                    xw.WriteEndElement();
+                }
+                xw.WriteEndElement();
+                xw.WriteEndElement();
+            }
+            xw.WriteEndElement();
+            xw.WriteEndDocument();
+            xw.Flush();
+        }
+    }
 }

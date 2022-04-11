@@ -24,36 +24,15 @@ class Program
             Functions.basicInfo();
             string input = Console.ReadLine();
             Console.Clear();
-            currentBranch = Functions.signpost(input, user, currentBranch);
+            currentBranch = Functions.signpost(input, user, currentBranch, fetched_users);
             Console.Clear();
         }
-        Environment.Exit(0);
-
-
-
-
-        // //STARTING APP WITH FEW PRINTS AND INPUT
-        // Console.WriteLine("Welcome on GitHub");
-        // System.Threading.Thread.Sleep(500);
-        // Console.WriteLine("Enter your username:");
-        // string inputName = Console.ReadLine();
-        // //TODO CHECK IF USER EXISTS AND LOAD DATA FROM XML FILE
-        // User user = new User(inputName);
-        // //CREATE MASTER BRANCH FOR NEW USER
-        // user.addBranch("master");
-        // TimeClass.loadingFunction("Creating Github account");
-        // Boolean flag = true;
-        // currentBranch = (Branch)user.listOfBranch[0];
-        // //APP
-        // while (flag)
-        // {
-        //     Console.WriteLine("USER: " + user.name + ", BRANCH: " + currentBranch.name);
-        //     Functions.basicInfo();
-        //     string input = Console.ReadLine();
-        //     Console.Clear();
-        //     currentBranch = Functions.signpost(input, user, currentBranch);
-        //     Console.Clear();
-        // }
-        // Environment.Exit(0);
+        //SAVE DATA
+        System.Console.WriteLine("OOVVER");
+        fetched_users.Remove(user);
+        System.Console.WriteLine(fetched_users.Count);
+        fetched_users.Add(user);
+        System.Console.WriteLine(fetched_users.Count);
+        Functions.saveDataToFile(fetched_users);
     }
 }

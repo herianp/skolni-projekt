@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <users>
   <user username="Petr">
     <branches>
@@ -16,6 +16,11 @@
           <message bodyMessage="BMW" />
           <message bodyMessage="Ford" />
           <message bodyMessage="Mazda" />
+        </messages>
+      </branch>
+      <branch branchName="nova">
+        <messages>
+          <message bodyMessage="nova zprava" />
         </messages>
       </branch>
     </branches>
