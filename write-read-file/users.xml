@@ -1,31 +1,83 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <users>
-  <user username="Petr" />
-  <branches>
-    <branch branchName="Volvo" />
-    <branch branchName="BMW" />
-    <branch branchName="Ford" />
-    <branch branchName="Mazda" />
-  </branches>
-  <user username="Ondra" />
-  <branches>
-    <branch branchName="Volvo" />
-    <branch branchName="BMW" />
-    <branch branchName="Ford" />
-    <branch branchName="Mazda" />
-  </branches>
-  <user username="Marek" />
-  <branches>
-    <branch branchName="Volvo" />
-    <branch branchName="BMW" />
-    <branch branchName="Ford" />
-    <branch branchName="Mazda" />
-  </branches>
-  <user username="Tomas" />
-  <branches>
-    <branch branchName="Volvo" />
-    <branch branchName="BMW" />
-    <branch branchName="Ford" />
-    <branch branchName="Mazda" />
-  </branches>
+  <user username="Petr">
+    <branches>
+      <branch branchName="master">
+        <messages>
+          <message bodyMessage="Volvo" />
+          <message bodyMessage="BMW" />
+          <message bodyMessage="Ford" />
+          <message bodyMessage="Mazda" />
+        </messages>
+      </branch>
+      <branch branchName="development">
+        <messages>
+          <message bodyMessage="Volvo" />
+          <message bodyMessage="BMW" />
+          <message bodyMessage="Ford" />
+          <message bodyMessage="Mazda" />
+        </messages>
+      </branch>
+    </branches>
+  </user>
+  <user username="Ondra">
+    <branches>
+      <branch branchName="master">
+        <messages>
+          <message bodyMessage="Volvo" />
+          <message bodyMessage="BMW" />
+          <message bodyMessage="Ford" />
+          <message bodyMessage="Mazda" />
+        </messages>
+      </branch>
+      <branch branchName="development">
+        <messages>
+          <message bodyMessage="Volvo" />
+          <message bodyMessage="BMW" />
+          <message bodyMessage="Ford" />
+          <message bodyMessage="Mazda" />
+        </messages>
+      </branch>
+    </branches>
+  </user>
+  <user username="Marek">
+    <branches>
+      <branch branchName="master">
+        <messages>
+          <message bodyMessage="Volvo" />
+          <message bodyMessage="BMW" />
+          <message bodyMessage="Ford" />
+          <message bodyMessage="Mazda" />
+        </messages>
+      </branch>
+      <branch branchName="development">
+        <messages>
+          <message bodyMessage="Volvo" />
+          <message bodyMessage="BMW" />
+          <message bodyMessage="Ford" />
+          <message bodyMessage="Mazda" />
+        </messages>
+      </branch>
+    </branches>
+  </user>
+  <user username="Tomas">
+    <branches>
+      <branch branchName="master">
+        <messages>
+          <message bodyMessage="Volvo" />
+          <message bodyMessage="BMW" />
+          <message bodyMessage="Ford" />
+          <message bodyMessage="Mazda" />
+        </messages>
+      </branch>
+      <branch branchName="development">
+        <messages>
+          <message bodyMessage="Volvo" />
+          <message bodyMessage="BMW" />
+          <message bodyMessage="Ford" />
+          <message bodyMessage="Mazda" />
+        </messages>
+      </branch>
+    </branches>
+  </user>
 </users>
